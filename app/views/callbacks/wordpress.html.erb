@@ -1,0 +1,9 @@
+<h1>Hello!</h1>
+
+<h2>Your Wordpress credentials:</h2>
+<pre>
+<%= JSON.pretty_generate(@omniauth) %>
+</pre>
+
+<h1>Check another account</h1>
+<%= link_to "Connect to Wordpress", wordpress_connect_path %>
